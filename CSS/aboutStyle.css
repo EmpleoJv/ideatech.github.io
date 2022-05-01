@@ -1,0 +1,79 @@
+*{
+    padding: 0%;
+    margin: 0%;
+}
+.fPage{
+    background-image: url(../Image/pexels-michał-osiński-3454270.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+.aboutNav{
+    width: 100%;
+    min-height: 8vh;
+    display: flex;
+    justify-content:space-around;
+}
+.aboutNav h1{
+    font-family: 'Orbitron', sans-serif;
+    padding: 54px 60px;
+    text-shadow: 3px 3px green;
+    font-size: 50px;
+}
+.aboutNav ul{
+    display: flex;
+    text-shadow: 3px 3px green;
+}
+.aboutNav ul li{
+    list-style: none;
+    padding: 54px 10px;
+}
+.aboutNav ul li a i{
+    font-size: 40px;
+    color: black;
+}
+.aboutNav ul li a #szLvl{
+    font-size: 35px;
+}
+
+.pageName{
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    text-shadow: 3px 3px green;
+    font-size: 40px;
+}
+
+.article_Container {
+    padding: 20px 300px;
+
+}
+.article_Container img{
+    margin: 0 auto;
+    display: block;
+    box-shadow: 3px 3px White;
+    width: 25%;
+}
+.article_Container p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+    color: whitesmoke;
+    text-shadow: 2px 2px black;
+}
+.inner_Article_Container{
+    background-color: whitesmoke;
+    padding: 20px 300px;
+}
+.inner_Article_Container h1{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+}
+.inner_Article_Container p{
+    font-family: 'Oswald', sans-serif;
+    font-size: 30px;
+    text-align: justify;
+    text-justify: inter-word;
+}

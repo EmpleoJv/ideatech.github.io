@@ -8,12 +8,15 @@
     }
     .nav ul{
         display: flex;
-        font-size: 30px;
         text-shadow: 3px 3px green;
     }
     .nav ul li{
         list-style: none;
         padding: 54px 10px;
+    }
+    .nav ul li a i{
+        font-size: 30px;
+
     }
     .info img{
         width: 50%;
@@ -61,7 +64,7 @@
 }
 
 
-@media only screen and (max-width: 1290px) {
+@media only screen and (max-width: 1280px) {
     .info img{
         display: none;
     }
@@ -128,7 +131,7 @@
     }
 }
 
-@media only screen and (max-width: 500px) {
+@media only screen and (max-width: 400px) {
     .nav h1{
         font-family: 'Orbitron', sans-serif;
         text-align: center;
@@ -138,12 +141,14 @@
     }
     .nav ul{
         display: flex;
-        font-size: 20px;
         text-shadow: 1px 1px green;
     }
     .nav ul li{
         list-style: none;
-        padding: 44px 10px;
+        padding: 40px 10px;
+    }
+    .nav ul li a i{
+        font-size: 20px;
     }
     .info{
         padding: 30px 10px 5px;

@@ -1,0 +1,160 @@
+@media only screen and (max-width: 1280px) {
+
+    .aboutNav h1{
+        font-family: 'Orbitron', sans-serif;
+        padding: 54px 60px;
+        text-shadow: 3px 3px green;
+        font-size: 30px;
+    }
+    .aboutNav ul{
+        display: flex;
+        text-shadow: 3px 3px green;
+    }
+    .aboutNav ul li{
+        list-style: none;
+        padding: 54px 10px;
+    }
+    .aboutNav ul li a i{
+        font-size: 40px;
+        color: black;
+    }
+    .aboutNav ul li a #szLvl{
+        font-size: 35px;
+    }
+    
+    .pageName{
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 3px 3px green;
+        font-size: 40px;
+    }
+    
+    .article_Container {
+        padding: 20px 300px;
+    
+    }
+    .article_Container img{
+        margin: 0 auto;
+        display: block;
+        box-shadow: 3px 3px White;
+        width: 25%;
+    }
+    .article_Container p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: inter-word;
+        color: whitesmoke;
+        text-shadow: 2px 2px black;
+    }
+    .inner_Article_Container{
+        background-color: whitesmoke;
+        padding: 20px 300px;
+    }
+    .inner_Article_Container h1{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .inner_Article_Container p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+
+    .article_Container {
+        padding: 20px 100px;
+    }
+    .article_Container img{
+        margin: 0 auto;
+        display: block;
+        box-shadow: 3px 3px White;
+        width: 35%;
+    }
+    .article_Container p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: inter-word;
+        color: whitesmoke;
+        text-shadow: 2px 2px black;
+    }
+    .inner_Article_Container{
+        background-color: whitesmoke;
+        padding: 20px 100px;
+    }
+    .inner_Article_Container h1{
+        font-size: 30px;
+        font-family: 'Oswald', sans-serif;
+    }
+    .inner_Article_Container p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 30px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+
+    .aboutNav h1{
+        font-family: 'Orbitron', sans-serif;
+        padding: 54px 60px;
+        text-shadow: 2px 2px green;
+        font-size: 20px;
+    }
+    .aboutNav ul{
+        display: flex;
+        text-shadow: 3px 3px green;
+    }
+    .aboutNav ul li{
+        list-style: none;
+        padding: 54px 10px;
+    }
+    .aboutNav ul li a i{
+        font-size: 20px;
+        color: black;
+    }
+
+    
+    .pageName{
+        text-align: center;
+        font-family: 'Orbitron', sans-serif;
+        text-shadow: 1px 1px green;
+        font-size: 20px;
+    }
+    
+    .article_Container {
+        padding: 20px 50px;
+    
+    }
+    .article_Container img{
+        margin: 0 auto;
+        display: block;
+        box-shadow: 3px 3px White;
+        width: 70%;
+    }
+    .article_Container p{
+        font-size: 15px;
+        color: whitesmoke;
+        text-shadow: 1px 1px black;
+    }
+    .inner_Article_Container{
+        background-color: whitesmoke;
+        padding: 20px 50px;
+    }
+    .inner_Article_Container h1{
+        font-size: 20px;
+        font-family: 'Oswald', sans-serif;
+        text-align: center;
+    }
+    .inner_Article_Container p{
+        font-family: 'Oswald', sans-serif;
+        font-size: 15px;
+        text-align: justify;
+        text-justify: inter-word;
+    }
+}
