@@ -18,7 +18,7 @@
         font-size: 35px;
         color: black;
     }
-    .memberNav ul li a #szLvl{
+    .memberNav ul li a{
         font-size: 35px;
     }
 
@@ -80,20 +80,20 @@
     }
     .memberNav ul li{
         list-style: none;
-        padding: 54px 10px;
+        padding: 44px 10px;
     }
     .memberNav ul li a i{
         font-size: 25px;
         color: black;
     }
-    .memberNav ul li a #szLvl{
+    .memberNav ul li a{
         font-size: 35px;
     }
 
 
     .wrapper{
         background-color: rgba(0, 0, 0, 0.5);
-        margin: 0px 10px;
+        margin: 0px 30px;
         border-radius: 10px;
     }
     .wrapper h1{
