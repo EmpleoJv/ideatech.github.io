@@ -52,8 +52,8 @@
 .article_Container img{
     margin: 0 auto;
     display: block;
-    box-shadow: 3px 3px White;
-    width: 25%;
+    box-shadow: 4px 4px black;
+    width: 35%;
 }
 .article_Container p{
     font-family: 'Oswald', sans-serif;

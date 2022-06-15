@@ -36,7 +36,7 @@
     .article_Container img{
         margin: 0 auto;
         display: block;
-        box-shadow: 3px 3px White;
+        box-shadow: 3px 3px black;
         width: 25%;
     }
     .article_Container p{
@@ -134,7 +134,7 @@
     .article_Container img{
         margin: 0 auto;
         display: block;
-        box-shadow: 3px 3px White;
+        box-shadow: 3px 3px black;
         width: 70%;
     }
     .article_Container p{
